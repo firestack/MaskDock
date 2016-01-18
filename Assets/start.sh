@@ -1,3 +1,4 @@
+#!/bin/bash
 
 set -xe
 
@@ -8,3 +9,5 @@ echo "Starting The bot..."
 sleep 3s
 
 python3 NewBot.py
+
+wait
