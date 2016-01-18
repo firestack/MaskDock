@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /srv
-git clone --depth=1 --branch server https://github.com/firestack/MaskOfTruth.git MaskofTruth
+git clone --depth=1 --branch master https://github.com/firestack/MaskOfTruth.git MaskofTruth
 
 cd ./MaskofTruth
 
