@@ -5,6 +5,8 @@ git clone --depth=1 --branch server https://github.com/firestack/MaskOfTruth.git
 
 cd ./MaskofTruth
 
+ln -s /etc/maskoftruth config
+
 ## pip install from file here
 
 pip3 install requests
