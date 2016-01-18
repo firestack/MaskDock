@@ -28,7 +28,7 @@ RUN /assets/setup.sh
 EXPOSE 8443 8080
 
 # Define data volumes
-VOLUME ["/etc/maskoftruth", "/var/log/gitlab"]
+VOLUME ["/etc/maskoftruth", "/var/log/maskoftruth"]
 
 # Wrapper to handle signal, trigger runit and reconfigure GitLab
 CMD ["/assets/start.sh"]
