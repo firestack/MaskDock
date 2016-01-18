@@ -10,7 +10,8 @@ RUN apt-get update -q \
       vim \
       nano \
 	  python3 \
-	  python3-pip
+	  python3-pip \ 
+	  git
       
 
 # Copy assets
