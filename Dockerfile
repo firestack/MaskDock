@@ -14,7 +14,6 @@ RUN apt-get update -q \
       
 
 # Copy assets
-COPY RELEASE /
 COPY assets/ /assets/
 RUN /assets/setup.sh
 
