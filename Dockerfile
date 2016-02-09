@@ -9,9 +9,11 @@ RUN apt-get update -q \
       apt-transport-https \
       vim \
       nano \
-	  python3 \
-	  python3-pip \ 
-	  git
+      python3 \
+      python3-pip \ 
+      git \
+      libpg-dev
+	  
       
 
 # Copy assets
