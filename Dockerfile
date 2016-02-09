@@ -12,7 +12,7 @@ RUN apt-get update -q \
       python3 \
       python3-pip \ 
       git \
-      libpg-dev
+      python3-psycopg2
 	  
       
 
