@@ -10,7 +10,7 @@ git pull --rebase
 git submodule update --init
 
 echo "Starting The bot..."
-sleep 3s
+
 
 python3 NewBot.py
 
